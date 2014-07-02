@@ -1,0 +1,39 @@
+<html>
+<head>
+  <title>example</title>
+  <style>
+    body {
+      font-size: 14px;
+    }
+    
+    .container {
+      width: 300px;
+      height: 300px;
+      margin: 48px;
+      overflow: hidden;
+      border: 1px #eee solid;
+    }
+
+    .content {
+      width: 400px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi libero nulla, consequat et vulputate non, aliquet nec ligula. Nullam tincidunt enim a enim malesuada aliquam. Pellentesque eget fringilla erat, et ultricies ipsum. Curabitur id neque vitae mauris gravida sodales sit amet eu urna. Proin sodales odio eu hendrerit mattis. Sed porttitor augue quis enim ultrices varius. Phasellus accumsan consequat lorem vel lacinia. Sed tempor ut dolor nec vehicula. Cras sit amet sem quis magna cursus pretium. Proin ut orci dictum, semper nisi faucibus, pulvinar mauris.</p>
+
+      <p>Nam dapibus sapien dolor, vitae vestibulum turpis cursus ut. Nunc non hendrerit nunc. Pellentesque quis risus in justo mollis viverra ac ut est. Nunc at metus ut magna blandit malesuada. Phasellus pulvinar lorem vitae odio scelerisque, id gravida erat varius. Morbi eleifend dictum erat. Sed convallis eu est varius feugiat. Cras pharetra felis arcu, et commodo massa cursus nec. Duis nec ultrices ipsum. Morbi ullamcorper congue vehicula. Nunc enim eros, luctus sed arcu sagittis, pharetra faucibus elit. Sed pellentesque gravida vulputate. Cras feugiat congue iaculis. Donec et viverra lacus.</p>
+    </div>
+  </div>
+
+  <link rel="stylesheet" href="./build/build.css"></link>
+  <script src="./build/build.js"></script>
+  <script>
+    var scrollbar = require('scrollbar.pure');
+    scrollbar(document.querySelector('.content'));
+  </script>
+</body>
+</html>

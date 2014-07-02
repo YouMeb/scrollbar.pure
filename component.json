@@ -1,0 +1,19 @@
+{
+  "name": "scrollbar.pure",
+  "version": "0.0.0",
+  "keywords": [
+    "pure",
+    "scrollbar"
+  ],
+  "dependencies": {
+    "mikanda/window-size": "~0.0.1",
+    "ramitos/mousewheel": "*"
+  },
+  "development": {},
+  "scripts": [
+    "lib/index.js"
+  ],
+  "styles": [
+    "lib/style.css"
+  ]
+}
